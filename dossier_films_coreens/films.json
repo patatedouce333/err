@@ -1,0 +1,193 @@
+[
+  {
+    "id": "parasite",
+    "fr": "Parasite",
+    "orig": "기생충 / Gisaengchung",
+    "an": 2019,
+    "real": "Bong Joon-ho",
+    "imdb": 8.5,
+    "genre": "Comédie noire · Thriller social",
+    "vf": "Confirmée (VF salles + TV)",
+    "pays": "F, US, GB, DE, JP, KR, FR, ES, IT, BR… (doublage multinational)",
+    "acteurs": [
+      "song_kang_ho.jpg",
+      "choi_woo_shik.png",
+      "lee_sun_kyun.jpg"
+    ],
+    "note": "Palme d'or 2019 · 4 Oscars (dont Meilleur film)"
+  },
+  {
+    "id": "oldboy",
+    "fr": "Oldboy",
+    "orig": "올드보이 / Oldeuboi",
+    "an": 2003,
+    "real": "Park Chan-wook",
+    "imdb": 8.3,
+    "genre": "Thriller · Vengeance",
+    "vf": "Support DVD/Blu-ray VF",
+    "pays": "KR, JP, FR, US, ES, IT…",
+    "acteurs": [
+      "choi_min_sik.jpg",
+      "yoo_ji_tae.jpg"
+    ],
+    "note": "Grand Prix du Jury · Cannes 2004"
+  },
+  {
+    "id": "memories",
+    "fr": "Memories of Murder",
+    "orig": "살인의 추억 / Salinui chueok",
+    "an": 2003,
+    "real": "Bong Joon-ho",
+    "imdb": 8.1,
+    "genre": "Policier · Thriller",
+    "vf": "Confirmée (VF Vidéo/VOd)",
+    "pays": "KR, FR, JP, US, ES…",
+    "acteurs": [
+      "song_kang_ho.jpg",
+      "kim_sang_kyung.jpg"
+    ],
+    "note": "Inspiré du 1er tueur en série coréen"
+  },
+  {
+    "id": "chaser",
+    "fr": "The Chaser",
+    "orig": "추격자 / Chugyeogja",
+    "an": 2008,
+    "real": "Na Hong-jin",
+    "imdb": 8.0,
+    "genre": "Thriller · Policier",
+    "vf": "Confirmée (VF salles)",
+    "pays": "KR, FR, ES, JP…",
+    "acteurs": [
+      "kim_yoon_seok.jpg",
+      "ha_jung_woo.jpg"
+    ],
+    "note": "1er film de Na Hong-jin (Grand Bell Award)"
+  },
+  {
+    "id": "man_from_nowhere",
+    "fr": "The Man from Nowhere",
+    "orig": "아저씨 / Ajeossi",
+    "an": 2010,
+    "real": "Lee Jeong-beom",
+    "imdb": 7.7,
+    "genre": "Action · Thriller",
+    "vf": "Confirmée (DVD FR doublé FR)",
+    "pays": "KR, FR, US, JP, ES…",
+    "acteurs": [
+      "won_bin.jpg"
+    ],
+    "note": "N°1 box-office Corée 2010"
+  },
+  {
+    "id": "i_saw_devil",
+    "fr": "I Saw the Devil",
+    "orig": "악마를 보았다 / Akmareul boatda",
+    "an": 2010,
+    "real": "Kim Jee-woon",
+    "imdb": 7.7,
+    "genre": "Thriller · Horreur",
+    "vf": "À confirmer (souvent VOST)",
+    "pays": "KR, JP, US, FR (VOST)…",
+    "acteurs": [
+      "lee_byung_hun.jpg",
+      "choi_min_sik.jpg"
+    ],
+    "note": "Kim Jee-woon × Lee Byung-hun"
+  },
+  {
+    "id": "okja",
+    "fr": "Okja",
+    "orig": "옥자",
+    "an": 2017,
+    "real": "Bong Joon-ho",
+    "imdb": 7.3,
+    "genre": "Fable écolo · Aventure",
+    "vf": "Confirmée (Netflix VF)",
+    "pays": "KR, US, FR, JP, ES, BR…",
+    "acteurs": [
+      "tilda_swinton.jpg",
+      "byun_hee_bong.png"
+    ],
+    "note": "Sélection Cannes 2017"
+  },
+  {
+    "id": "train_busan",
+    "fr": "Train to Busan",
+    "orig": "부산행 / Busanhaeng",
+    "an": 2016,
+    "real": "Yeon Sang-ho",
+    "imdb": 7.6,
+    "genre": "Horreur · Zombies",
+    "vf": "Confirmée (VF salles)",
+    "pays": "KR, FR, US, JP, ES, DE…",
+    "acteurs": [
+      "gong_yoo.png",
+      "ma_dong_seok.png"
+    ],
+    "note": "Phénomène mondial du zombie coréen"
+  },
+  {
+    "id": "snowpiercer",
+    "fr": "Snowpiercer",
+    "orig": "설국열차 / Seolgungnyeolcha",
+    "an": 2013,
+    "real": "Bong Joon-ho",
+    "imdb": 7.1,
+    "genre": "Sci-fi · Anticipation",
+    "vf": "Confirmée (Le Transperceneige, VF)",
+    "pays": "KR, FR, US, JP, DE, ES…",
+    "acteurs": [
+      "song_kang_ho.jpg",
+      "tilda_swinton.jpg"
+    ],
+    "note": "Adapté de la BD française Le Transperceneige"
+  },
+  {
+    "id": "host",
+    "fr": "The Host",
+    "orig": "괴물 / Gwoemul",
+    "an": 2006,
+    "real": "Bong Joon-ho",
+    "imdb": 7.1,
+    "genre": "Monstre · Drame",
+    "vf": "À confirmer (souvent VOST)",
+    "pays": "KR, US, JP, FR (VOST)…",
+    "acteurs": [
+      "song_kang_ho.jpg",
+      "bae_dona.jpg"
+    ],
+    "note": "Monstre sur la rivière Han"
+  },
+  {
+    "id": "space_sweepers",
+    "fr": "Space Sweepers",
+    "orig": "승리호 / Seungnigho",
+    "an": 2021,
+    "real": "Jo Sung-hee",
+    "imdb": 6.6,
+    "genre": "Sci-fi · Space opera",
+    "vf": "Confirmée (Netflix VF)",
+    "pays": "KR, US, FR, JP, ES…",
+    "acteurs": [
+      "kim_tae_ri.png",
+      "song_joong_ki.jpg"
+    ],
+    "note": "1er blockbuster SF coréen"
+  },
+  {
+    "id": "peninsula",
+    "fr": "Peninsula",
+    "orig": "반도 / Bando",
+    "an": 2020,
+    "real": "Yeon Sang-ho",
+    "imdb": 5.6,
+    "genre": "Horreur · Zombies",
+    "vf": "Confirmée (VF salles)",
+    "pays": "KR, FR, US, JP, ES…",
+    "acteurs": [
+      "gang_dong_won.jpg"
+    ],
+    "note": "Suite de Train to Busan"
+  }
+]
