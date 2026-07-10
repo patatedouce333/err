@@ -10,6 +10,7 @@ body{font-family:"Helvetica Neue",Arial,sans-serif;color:#16161d;margin:0;backgr
 .cover h1{font-family:Georgia,serif;font-size:46px;margin:0 0 10px}
 .cover .sub{font-size:18px;opacity:.9;max-width:150mm}
 .cover .crit{margin-top:30px;font-size:14px;opacity:.85;max-width:160mm;text-align:left}
+.lic{background:#fff4f4;border:1px solid #c8102e;color:#7a0d1c;padding:8px 12px;font-size:12px;margin:10mm 0;page-break-after:always}
 .method{page-break-after:always}
 .method h2{color:#c8102e;font-family:Georgia,serif}
 .method li{margin:6px 0;line-height:1.45}
@@ -20,8 +21,9 @@ th{background:#16161d;color:#fff}
 .vf.ok{color:#1a7f37;font-weight:bold}
 .vf.warn{color:#b06100;font-weight:bold}
 .film{display:flex;gap:10mm;align-items:flex-start;page-break-inside:avoid;margin-bottom:10mm;padding-bottom:8mm;border-bottom:1px solid #eee}
-.poster{width:62mm;flex:0 0 62mm}
+.poster{width:60mm;flex:0 0 60mm}
 .poster img{width:100%;border:1px solid #ccc;box-shadow:0 2px 8px rgba(0,0,0,.2)}
+.credit{font-size:9px;color:#888;margin-top:2px}
 .info{flex:1}
 .rank{font-family:Georgia,serif;font-size:30px;color:#c8102e;font-weight:bold}
 h2{font-family:Georgia,serif;margin:0 0 6px;font-size:22px}
@@ -49,24 +51,27 @@ footer{font-size:10px;color:#888;text-align:center;margin-top:8mm}
   5. Classement final par note IMDb (nombre de pays de doublage comme signal de portée).</div>
 </div>
 
+<div class="lic"><b>Droits d'auteur — à lire avant impression.</b> Les 12 <b>affiches officielles</b> sont des œuvres protégées (sources : Wikipedia/anglais « fair use », TMDB pour <i>Snowpiercer</i>). Elles sont fournies à titre de compos graphique ; pour une impression commerciale, obtenez les droits auprès des détenteurs (studios / distributeurs). Les <b>photos d'acteurs</b> sont sous licence libre (CC) Wikimedia Commons.</div>
+
 <section class="method">
   <h2>Méthodologie &amp; sources</h2>
   <ul>
-    <li><b>Périmètre</b> : films sud-coréens narratifs sortis entre 2003 et 2025, hors romances/mélodrames (ex. <i>The Handmaiden</i>, <i>Decision to Leave</i>, <i>A Moment to Remember</i> écartés).</li>
-    <li><b>VF obligatoire</b> : vérifiée via distributeurs FR (The Jokers, Diaphana, KMBO…), éditeurs DVD/Blu-ray (mention « doublé français »), et plateformes (Netflix, Prime Video, SOONER, Nautiljon, AlloCiné). Les films sans VF confirmée sont signalés « à confirmer ».</li>
+    <li><b>Périmètre</b> : films sud-coréens narratifs 2003–2025, hors romances/mélodrames (ex. <i>The Handmaiden</i>, <i>Decision to Leave</i>, <i>A Moment to Remember</i> écartés).</li>
+    <li><b>VF confirmée pour tous les films</b>, y compris <i>I Saw the Devil</i> (éd. DVD/Blu-ray <b>ARP Sélection</b> + streaming FR) et <i>The Host</i> (éd. DVD/Blu-ray française + diffusion FR). Vérifié via AlloCiné, Nautiljon (affiche française), JustWatch/Go-VF (VF), ARP Sélection, Fnac/CeDe (édition « Français »).</li>
     <li><b>Acteurs-stars</b> : Song Kang-ho, Choi Min-sik, Lee Byung-hun, Gong Yoo, Ma Dong-seok, Won Bin, Ha Jung-woo, Tilda Swinton, Kim Tae-ri, etc.</li>
     <li><b>Notes IMDb</b> : valeurs publiques courantes (≥ 100k votes).</li>
-    <li><b>Images</b> : photos d'acteurs sous licence libre (CC) issues de Wikimedia Commons. Les <b>affiches</b> sont des <b>placeholders</b> (droits d'auteur) — insérer l'affiche officielle avant impression.</li>
+    <li><b>Affiches</b> : visuels officiels récupérés (URLs dans <code>liste_films.csv</code> + <code>films.json</code>). <b>Photos d'acteurs</b> : CC Wikimedia Commons.</li>
   </ul>
   <h2>Tableau récapitulatif (tri IMDb)</h2>
   <table><thead><tr><th>#</th><th>Film</th><th>Année</th><th>IMDb</th><th>VF</th><th>Réalisateur</th></tr></thead>
-  <tbody><tr><td>1</td><td>Parasite</td><td>2019</td><td class="imdb">8.5</td><td class="vf ok">Confirmée (VF salles + TV)</td><td>Bong Joon-ho</td></tr><tr><td>2</td><td>Oldboy</td><td>2003</td><td class="imdb">8.3</td><td class="vf warn">Support DVD/Blu-ray VF</td><td>Park Chan-wook</td></tr><tr><td>3</td><td>Memories of Murder</td><td>2003</td><td class="imdb">8.1</td><td class="vf ok">Confirmée (VF Vidéo/VOd)</td><td>Bong Joon-ho</td></tr><tr><td>4</td><td>The Chaser</td><td>2008</td><td class="imdb">8.0</td><td class="vf ok">Confirmée (VF salles)</td><td>Na Hong-jin</td></tr><tr><td>5</td><td>The Man from Nowhere</td><td>2010</td><td class="imdb">7.7</td><td class="vf ok">Confirmée (DVD FR doublé FR)</td><td>Lee Jeong-beom</td></tr><tr><td>6</td><td>I Saw the Devil</td><td>2010</td><td class="imdb">7.7</td><td class="vf warn">À confirmer (souvent VOST)</td><td>Kim Jee-woon</td></tr><tr><td>7</td><td>Train to Busan</td><td>2016</td><td class="imdb">7.6</td><td class="vf ok">Confirmée (VF salles)</td><td>Yeon Sang-ho</td></tr><tr><td>8</td><td>Okja</td><td>2017</td><td class="imdb">7.3</td><td class="vf ok">Confirmée (Netflix VF)</td><td>Bong Joon-ho</td></tr><tr><td>9</td><td>Snowpiercer</td><td>2013</td><td class="imdb">7.1</td><td class="vf ok">Confirmée (Le Transperceneige, VF)</td><td>Bong Joon-ho</td></tr><tr><td>10</td><td>The Host</td><td>2006</td><td class="imdb">7.1</td><td class="vf warn">À confirmer (souvent VOST)</td><td>Bong Joon-ho</td></tr><tr><td>11</td><td>Space Sweepers</td><td>2021</td><td class="imdb">6.6</td><td class="vf ok">Confirmée (Netflix VF)</td><td>Jo Sung-hee</td></tr><tr><td>12</td><td>Peninsula</td><td>2020</td><td class="imdb">5.6</td><td class="vf ok">Confirmée (VF salles)</td><td>Yeon Sang-ho</td></tr></tbody></table>
-  <footer>Plaquette générée à des fins de composition graphique — droits d'auteur des œuvres non inclus.</footer>
+  <tbody><tr><td>1</td><td>Parasite</td><td>2019</td><td class="imdb">8.5</td><td class="vf ok">Confirmée (VF salles + TV)</td><td>Bong Joon-ho</td></tr><tr><td>2</td><td>Oldboy</td><td>2003</td><td class="imdb">8.3</td><td class="vf warn">Support DVD/Blu-ray VF</td><td>Park Chan-wook</td></tr><tr><td>3</td><td>Memories of Murder</td><td>2003</td><td class="imdb">8.1</td><td class="vf ok">Confirmée (VF Vidéo/VOd)</td><td>Bong Joon-ho</td></tr><tr><td>4</td><td>The Chaser</td><td>2008</td><td class="imdb">8.0</td><td class="vf ok">Confirmée (VF salles)</td><td>Na Hong-jin</td></tr><tr><td>5</td><td>The Man from Nowhere</td><td>2010</td><td class="imdb">7.7</td><td class="vf ok">Confirmée (DVD FR doublé FR)</td><td>Lee Jeong-beom</td></tr><tr><td>6</td><td>I Saw the Devil</td><td>2010</td><td class="imdb">7.7</td><td class="vf ok">Confirmée (VF DVD/Blu-ray ARP Sélection + streaming FR)</td><td>Kim Jee-woon</td></tr><tr><td>7</td><td>Train to Busan</td><td>2016</td><td class="imdb">7.6</td><td class="vf ok">Confirmée (VF salles)</td><td>Yeon Sang-ho</td></tr><tr><td>8</td><td>Okja</td><td>2017</td><td class="imdb">7.3</td><td class="vf ok">Confirmée (Netflix VF)</td><td>Bong Joon-ho</td></tr><tr><td>9</td><td>Snowpiercer</td><td>2013</td><td class="imdb">7.1</td><td class="vf ok">Confirmée (Le Transperceneige, VF)</td><td>Bong Joon-ho</td></tr><tr><td>10</td><td>The Host</td><td>2006</td><td class="imdb">7.1</td><td class="vf ok">Confirmée (VF DVD/Blu-ray français + diffusion FR)</td><td>Bong Joon-ho</td></tr><tr><td>11</td><td>Space Sweepers</td><td>2021</td><td class="imdb">6.6</td><td class="vf ok">Confirmée (Netflix VF)</td><td>Jo Sung-hee</td></tr><tr><td>12</td><td>Peninsula</td><td>2020</td><td class="imdb">5.6</td><td class="vf ok">Confirmée (VF salles)</td><td>Yeon Sang-ho</td></tr></tbody></table>
+  <footer>Plaquette générée à des fins de composition graphique.</footer>
 </section>
 
 
 <section class="film">
-  <div class="poster"><img src="affiches/parasite.svg" alt="Affiche Parasite"/></div>
+  <div class="poster"><img src="affiches/parasite.png" alt="Affiche Parasite"/>
+    <div class="credit">Affiche : source Wikipedia/en (fair-use)</div></div>
   <div class="info">
     <div class="rank">#1</div>
     <h2>Parasite <span class="orig">(기생충 / Gisaengchung)</span></h2>
@@ -84,7 +89,8 @@ footer{font-size:10px;color:#888;text-align:center;margin-top:8mm}
   </div>
 </section>
 <section class="film">
-  <div class="poster"><img src="affiches/oldboy.svg" alt="Affiche Oldboy"/></div>
+  <div class="poster"><img src="affiches/oldboy.jpg" alt="Affiche Oldboy"/>
+    <div class="credit">Affiche : source Wikipedia/en (fair-use)</div></div>
   <div class="info">
     <div class="rank">#2</div>
     <h2>Oldboy <span class="orig">(올드보이 / Oldeuboi)</span></h2>
@@ -102,7 +108,8 @@ footer{font-size:10px;color:#888;text-align:center;margin-top:8mm}
   </div>
 </section>
 <section class="film">
-  <div class="poster"><img src="affiches/memories.svg" alt="Affiche Memories of Murder"/></div>
+  <div class="poster"><img src="affiches/memories.jpg" alt="Affiche Memories of Murder"/>
+    <div class="credit">Affiche : source Wikipedia/en (fair-use)</div></div>
   <div class="info">
     <div class="rank">#3</div>
     <h2>Memories of Murder <span class="orig">(살인의 추억 / Salinui chueok)</span></h2>
@@ -120,7 +127,8 @@ footer{font-size:10px;color:#888;text-align:center;margin-top:8mm}
   </div>
 </section>
 <section class="film">
-  <div class="poster"><img src="affiches/chaser.svg" alt="Affiche The Chaser"/></div>
+  <div class="poster"><img src="affiches/chaser.jpg" alt="Affiche The Chaser"/>
+    <div class="credit">Affiche : source Wikipedia/en (fair-use)</div></div>
   <div class="info">
     <div class="rank">#4</div>
     <h2>The Chaser <span class="orig">(추격자 / Chugyeogja)</span></h2>
@@ -138,7 +146,8 @@ footer{font-size:10px;color:#888;text-align:center;margin-top:8mm}
   </div>
 </section>
 <section class="film">
-  <div class="poster"><img src="affiches/man_from_nowhere.svg" alt="Affiche The Man from Nowhere"/></div>
+  <div class="poster"><img src="affiches/man_from_nowhere.jpg" alt="Affiche The Man from Nowhere"/>
+    <div class="credit">Affiche : source Wikipedia/en (fair-use)</div></div>
   <div class="info">
     <div class="rank">#5</div>
     <h2>The Man from Nowhere <span class="orig">(아저씨 / Ajeossi)</span></h2>
@@ -156,7 +165,8 @@ footer{font-size:10px;color:#888;text-align:center;margin-top:8mm}
   </div>
 </section>
 <section class="film">
-  <div class="poster"><img src="affiches/i_saw_devil.svg" alt="Affiche I Saw the Devil"/></div>
+  <div class="poster"><img src="affiches/i_saw_devil.jpg" alt="Affiche I Saw the Devil"/>
+    <div class="credit">Affiche : source Wikipedia/en (fair-use)</div></div>
   <div class="info">
     <div class="rank">#6</div>
     <h2>I Saw the Devil <span class="orig">(악마를 보았다 / Akmareul boatda)</span></h2>
@@ -165,7 +175,7 @@ footer{font-size:10px;color:#888;text-align:center;margin-top:8mm}
       <span><b>Année</b> 2010</span>
       <span><b>IMDb</b> <span class="imdb">7.7/10</span></span>
       <span><b>Genre</b> Thriller · Horreur</span>
-      <span class="vf warn"><b>VF</b> À confirmer (souvent VOST)</span>
+      <span class="vf ok"><b>VF</b> Confirmée (VF DVD/Blu-ray ARP Sélection + streaming FR)</span>
       <span><b>Doublage</b> KR, JP, US, FR (VOST)…</span>
     </div>
     <div class="cast"><span class="chip">Lee Byung Hun</span><span class="chip">Choi Min Sik</span></div>
@@ -174,7 +184,8 @@ footer{font-size:10px;color:#888;text-align:center;margin-top:8mm}
   </div>
 </section>
 <section class="film">
-  <div class="poster"><img src="affiches/train_busan.svg" alt="Affiche Train to Busan"/></div>
+  <div class="poster"><img src="affiches/train_busan.jpg" alt="Affiche Train to Busan"/>
+    <div class="credit">Affiche : source Wikipedia/en (fair-use)</div></div>
   <div class="info">
     <div class="rank">#7</div>
     <h2>Train to Busan <span class="orig">(부산행 / Busanhaeng)</span></h2>
@@ -192,7 +203,8 @@ footer{font-size:10px;color:#888;text-align:center;margin-top:8mm}
   </div>
 </section>
 <section class="film">
-  <div class="poster"><img src="affiches/okja.svg" alt="Affiche Okja"/></div>
+  <div class="poster"><img src="affiches/okja.png" alt="Affiche Okja"/>
+    <div class="credit">Affiche : source Wikipedia/en (fair-use)</div></div>
   <div class="info">
     <div class="rank">#8</div>
     <h2>Okja <span class="orig">(옥자)</span></h2>
@@ -210,7 +222,8 @@ footer{font-size:10px;color:#888;text-align:center;margin-top:8mm}
   </div>
 </section>
 <section class="film">
-  <div class="poster"><img src="affiches/snowpiercer.svg" alt="Affiche Snowpiercer"/></div>
+  <div class="poster"><img src="affiches/snowpiercer.jpg" alt="Affiche Snowpiercer"/>
+    <div class="credit">Affiche : source TMDB</div></div>
   <div class="info">
     <div class="rank">#9</div>
     <h2>Snowpiercer <span class="orig">(설국열차 / Seolgungnyeolcha)</span></h2>
@@ -228,7 +241,8 @@ footer{font-size:10px;color:#888;text-align:center;margin-top:8mm}
   </div>
 </section>
 <section class="film">
-  <div class="poster"><img src="affiches/host.svg" alt="Affiche The Host"/></div>
+  <div class="poster"><img src="affiches/host.jpg" alt="Affiche The Host"/>
+    <div class="credit">Affiche : source Wikipedia/en (fair-use)</div></div>
   <div class="info">
     <div class="rank">#10</div>
     <h2>The Host <span class="orig">(괴물 / Gwoemul)</span></h2>
@@ -237,7 +251,7 @@ footer{font-size:10px;color:#888;text-align:center;margin-top:8mm}
       <span><b>Année</b> 2006</span>
       <span><b>IMDb</b> <span class="imdb">7.1/10</span></span>
       <span><b>Genre</b> Monstre · Drame</span>
-      <span class="vf warn"><b>VF</b> À confirmer (souvent VOST)</span>
+      <span class="vf ok"><b>VF</b> Confirmée (VF DVD/Blu-ray français + diffusion FR)</span>
       <span><b>Doublage</b> KR, US, JP, FR (VOST)…</span>
     </div>
     <div class="cast"><span class="chip">Song Kang Ho</span><span class="chip">Bae Dona</span></div>
@@ -246,7 +260,8 @@ footer{font-size:10px;color:#888;text-align:center;margin-top:8mm}
   </div>
 </section>
 <section class="film">
-  <div class="poster"><img src="affiches/space_sweepers.svg" alt="Affiche Space Sweepers"/></div>
+  <div class="poster"><img src="affiches/space_sweepers.jpg" alt="Affiche Space Sweepers"/>
+    <div class="credit">Affiche : source Wikipedia/en (fair-use)</div></div>
   <div class="info">
     <div class="rank">#11</div>
     <h2>Space Sweepers <span class="orig">(승리호 / Seungnigho)</span></h2>
@@ -264,7 +279,8 @@ footer{font-size:10px;color:#888;text-align:center;margin-top:8mm}
   </div>
 </section>
 <section class="film">
-  <div class="poster"><img src="affiches/peninsula.svg" alt="Affiche Peninsula"/></div>
+  <div class="poster"><img src="affiches/peninsula.jpg" alt="Affiche Peninsula"/>
+    <div class="credit">Affiche : source Wikipedia/en (fair-use)</div></div>
   <div class="info">
     <div class="rank">#12</div>
     <h2>Peninsula <span class="orig">(반도 / Bando)</span></h2>
@@ -282,5 +298,5 @@ footer{font-size:10px;color:#888;text-align:center;margin-top:8mm}
   </div>
 </section>
 
-<footer>Fin de la plaquette · 12 films · Photos CC Wikimedia Commons · Affiches = placeholders à remplacer.</footer>
+<footer>Fin de la plaquette · 12 films · Affiches officielles (droits détenteurs) · Photos acteurs CC Wikimedia Commons.</footer>
 </body></html>

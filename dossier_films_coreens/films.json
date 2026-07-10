@@ -14,7 +14,10 @@
       "choi_woo_shik.png",
       "lee_sun_kyun.jpg"
     ],
-    "note": "Palme d'or 2019 · 4 Oscars (dont Meilleur film)"
+    "note": "Palme d'or 2019 · 4 Oscars (dont Meilleur film)",
+    "poster_file": "parasite.png",
+    "poster_url": "https://upload.wikimedia.org/wikipedia/en/5/53/Parasite_%282019_film%29.png",
+    "poster_source": "Wikipedia/en (fair-use)"
   },
   {
     "id": "oldboy",
@@ -30,7 +33,10 @@
       "choi_min_sik.jpg",
       "yoo_ji_tae.jpg"
     ],
-    "note": "Grand Prix du Jury · Cannes 2004"
+    "note": "Grand Prix du Jury · Cannes 2004",
+    "poster_file": "oldboy.jpg",
+    "poster_url": "https://upload.wikimedia.org/wikipedia/en/6/67/Oldboykoreanposter.jpg",
+    "poster_source": "Wikipedia/en (fair-use)"
   },
   {
     "id": "memories",
@@ -46,7 +52,10 @@
       "song_kang_ho.jpg",
       "kim_sang_kyung.jpg"
     ],
-    "note": "Inspiré du 1er tueur en série coréen"
+    "note": "Inspiré du 1er tueur en série coréen",
+    "poster_file": "memories.jpg",
+    "poster_url": "https://upload.wikimedia.org/wikipedia/en/0/01/Salinui-chueok-south-korean-movie-poster-md.jpg",
+    "poster_source": "Wikipedia/en (fair-use)"
   },
   {
     "id": "chaser",
@@ -62,7 +71,10 @@
       "kim_yoon_seok.jpg",
       "ha_jung_woo.jpg"
     ],
-    "note": "1er film de Na Hong-jin (Grand Bell Award)"
+    "note": "1er film de Na Hong-jin (Grand Bell Award)",
+    "poster_file": "chaser.jpg",
+    "poster_url": "https://upload.wikimedia.org/wikipedia/en/4/4d/The_Chaser_film_poster.jpg",
+    "poster_source": "Wikipedia/en (fair-use)"
   },
   {
     "id": "man_from_nowhere",
@@ -77,7 +89,10 @@
     "acteurs": [
       "won_bin.jpg"
     ],
-    "note": "N°1 box-office Corée 2010"
+    "note": "N°1 box-office Corée 2010",
+    "poster_file": "man_from_nowhere.jpg",
+    "poster_url": "https://upload.wikimedia.org/wikipedia/en/d/d6/The_Man_from_Nowhere_poster.jpg",
+    "poster_source": "Wikipedia/en (fair-use)"
   },
   {
     "id": "i_saw_devil",
@@ -87,13 +102,16 @@
     "real": "Kim Jee-woon",
     "imdb": 7.7,
     "genre": "Thriller · Horreur",
-    "vf": "À confirmer (souvent VOST)",
+    "vf": "Confirmée (VF DVD/Blu-ray ARP Sélection + streaming FR)",
     "pays": "KR, JP, US, FR (VOST)…",
     "acteurs": [
       "lee_byung_hun.jpg",
       "choi_min_sik.jpg"
     ],
-    "note": "Kim Jee-woon × Lee Byung-hun"
+    "note": "Kim Jee-woon × Lee Byung-hun",
+    "poster_file": "i_saw_devil.jpg",
+    "poster_url": "https://upload.wikimedia.org/wikipedia/en/9/91/I_Saw_the_Devil_film_poster.jpg",
+    "poster_source": "Wikipedia/en (fair-use)"
   },
   {
     "id": "okja",
@@ -109,7 +127,10 @@
       "tilda_swinton.jpg",
       "byun_hee_bong.png"
     ],
-    "note": "Sélection Cannes 2017"
+    "note": "Sélection Cannes 2017",
+    "poster_file": "okja.png",
+    "poster_url": "https://upload.wikimedia.org/wikipedia/en/f/f6/Okja.png",
+    "poster_source": "Wikipedia/en (fair-use)"
   },
   {
     "id": "train_busan",
@@ -125,7 +146,10 @@
       "gong_yoo.png",
       "ma_dong_seok.png"
     ],
-    "note": "Phénomène mondial du zombie coréen"
+    "note": "Phénomène mondial du zombie coréen",
+    "poster_file": "train_busan.jpg",
+    "poster_url": "https://upload.wikimedia.org/wikipedia/en/9/95/Train_to_Busan.jpg",
+    "poster_source": "Wikipedia/en (fair-use)"
   },
   {
     "id": "snowpiercer",
@@ -141,7 +165,10 @@
       "song_kang_ho.jpg",
       "tilda_swinton.jpg"
     ],
-    "note": "Adapté de la BD française Le Transperceneige"
+    "note": "Adapté de la BD française Le Transperceneige",
+    "poster_file": "snowpiercer.jpg",
+    "poster_url": "https://image.tmdb.org/t/p/original/a5kEmfaNE3CPh6k6QC8VBZgUsO0.jpg",
+    "poster_source": "TMDB"
   },
   {
     "id": "host",
@@ -151,13 +178,16 @@
     "real": "Bong Joon-ho",
     "imdb": 7.1,
     "genre": "Monstre · Drame",
-    "vf": "À confirmer (souvent VOST)",
+    "vf": "Confirmée (VF DVD/Blu-ray français + diffusion FR)",
     "pays": "KR, US, JP, FR (VOST)…",
     "acteurs": [
       "song_kang_ho.jpg",
       "bae_dona.jpg"
     ],
-    "note": "Monstre sur la rivière Han"
+    "note": "Monstre sur la rivière Han",
+    "poster_file": "host.jpg",
+    "poster_url": "https://upload.wikimedia.org/wikipedia/en/5/55/The_Host_film_poster.jpg",
+    "poster_source": "Wikipedia/en (fair-use)"
   },
   {
     "id": "space_sweepers",
@@ -173,7 +203,10 @@
       "kim_tae_ri.png",
       "song_joong_ki.jpg"
     ],
-    "note": "1er blockbuster SF coréen"
+    "note": "1er blockbuster SF coréen",
+    "poster_file": "space_sweepers.jpg",
+    "poster_url": "https://upload.wikimedia.org/wikipedia/en/0/05/Space_Sweepers.jpg",
+    "poster_source": "Wikipedia/en (fair-use)"
   },
   {
     "id": "peninsula",
@@ -188,6 +221,9 @@
     "acteurs": [
       "gang_dong_won.jpg"
     ],
-    "note": "Suite de Train to Busan"
+    "note": "Suite de Train to Busan",
+    "poster_file": "peninsula.jpg",
+    "poster_url": "https://upload.wikimedia.org/wikipedia/en/e/ec/Peninsula_poster.jpg",
+    "poster_source": "Wikipedia/en (fair-use)"
   }
 ]

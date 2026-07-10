@@ -21,8 +21,8 @@ sud-coréens, de *Oldboy* (2003) à aujourd'hui, selon 3 critères imposés.
   navigateur → « Imprimer » / « Enregistrer en PDF ».
 - `liste_films.csv` — données tabulaires (tri IMDb).
 - `films.json` — même données en JSON (pour automatisation).
-- `affiches/` — **placeholders SVG** par film (les affiches officielles sont protégées par
-  le droit d'auteur et ne peuvent être redistribuées ; les remplacer avant impression).
+- `affiches/` — **12 affiches officielles** (fichiers `parasite.png`, `oldboy.jpg`, …).
+  Sources : Wikipedia/anglais (fair use) sauf *Snowpiercer* (TMDB). URLs dans `liste_films.csv`.
 - `acteurs/` — **photos d'acteurs sous licence libre (CC)** issues de Wikimedia Commons.
 
 ## Sélection finale (tri par note IMDb)
@@ -33,11 +33,11 @@ sud-coréens, de *Oldboy* (2003) à aujourd'hui, selon 3 critères imposés.
 | 3 | Memories of Murder | 2003 | 8.1 | Confirmée | Bong Joon-ho |
 | 4 | The Chaser | 2008 | 8.0 | Confirmée | Na Hong-jin |
 | 5 | The Man from Nowhere | 2010 | 7.7 | Confirmée | Lee Jeong-beom |
-| 6 | I Saw the Devil | 2010 | 7.7 | À confirmer | Kim Jee-woon |
+| 6 | I Saw the Devil | 2010 | 7.7 | Confirmée (DVD/Blu-ray ARP Sélection + streaming FR) | Kim Jee-woon |
 | 7 | Train to Busan | 2016 | 7.6 | Confirmée | Yeon Sang-ho |
 | 8 | Okja | 2017 | 7.3 | Confirmée (Netflix) | Bong Joon-ho |
 | 9 | Snowpiercer | 2013 | 7.1 | Confirmée | Bong Joon-ho |
-| 10 | The Host | 2006 | 7.1 | À confirmer | Bong Joon-ho |
+| 10 | The Host | 2006 | 7.1 | Confirmée (DVD/Blu-ray français + diffusion FR) | Bong Joon-ho |
 | 11 | Space Sweepers | 2021 | 6.6 | Confirmée (Netflix) | Jo Sung-hee |
 | 12 | Peninsula | 2020 | 5.6 | Confirmée | Yeon Sang-ho |
 
@@ -49,8 +49,8 @@ sud-coréens, de *Oldboy* (2003) à aujourd'hui, selon 3 critères imposés.
 - Photos d'acteurs : Wikimedia Commons (licence CC BY / CC BY-SA).
 
 ## À faire avant impression
-- Remplacer chaque `affiches/<film>.svg` par l'affiche officielle (avec droits d'exploitation
-  pour l'impression).
-- Vérifier les 2 VF « à confirmer » (*I Saw the Devil*, *The Host*) si le doublage FR est
-  exigé sans exception.
+- **Droits d'affiches** : les 12 visuels officiels sont protégés. Pour une impression
+  commerciale, acquérir les droits auprès des studios/distributeurs (URLs dans `liste_films.csv`).
+- **VF** : confirmée pour les 12 films, dont *I Saw the Devil* (ARP Sélection) et *The Host*
+  (édition française) — plus nécessaire de vérifier.
 - Préférer des photos d'acteurs haute résolution (≥ 300 dpi) pour l'imposition print.
